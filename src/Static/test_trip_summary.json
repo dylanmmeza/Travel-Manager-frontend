@@ -1,0 +1,88 @@
+[
+    [
+        {
+            "trip_uuid": "1",
+            "trip_image": "../Static/image.jpg",
+            "trip_name": "Spain Trip",
+            "trip_dates": "Decmber 17-22",
+            "trip_icon": "star",
+            "trip_icon_style": "gold"
+        },
+        {
+            "trip_uuid": "2",
+            "trip_image": "../Static/image.jpg",
+            "trip_name": "India Trip",
+            "trip_dates": "May 23-28",
+            "trip_icon": "heart",
+            "trip_icon_style": "red"
+        },
+        {
+            "trip_uuid": "3",
+            "trip_image": "../Static/image.jpg",
+            "trip_name": "Mexico Spring Break ",
+            "trip_dates": "March 9-10",
+            "trip_icon": "flag",
+            "trip_icon_style": "blue"
+        }
+    ],
+    [
+        {
+            "trip_uuid": "4",
+            "trip_image": "../Static/image.jpg",
+            "trip_name": "Canada Trip",
+            "trip_dates": "March 1-4",
+            "trip_icon": "flag",
+            "trip_icon_style": "red"
+        },
+        {
+            "trip_uuid": "5",
+            "trip_image": "../Static/image.jpg",
+            "trip_name": "Fmaily Cruise",
+            "trip_dates": "August 23-28",
+            "trip_icon": "heart",
+            "trip_icon_style": "red"
+        },
+        {
+            "trip_uuid": "6",
+            "trip_image": "../Static/image.jpg",
+            "trip_name": "USA Trip",
+            "trip_dates": "March 23-29",
+            "trip_icon": "star",
+            "trip_icon_style": "gold"
+        },
+        {
+            "trip_uuid": "12012",
+            "trip_image": "../Static/image.jpg",
+            "trip_name": "Another Trip",
+            "trip_dates": "October 11",
+            "trip_icon": "",
+            "trip_icon_style": "gold"
+        }
+    ],
+    [
+        {
+            "trip_uuid": "7",
+            "trip_image": "../Static/image.jpg",
+            "trip_name": "Dream Trip",
+            "trip_dates": "Whenever",
+            "trip_icon": "flag",
+            "trip_icon_style": "red"
+        },
+        {
+            "trip_uuid": "8",
+            "trip_image": "../Static/image.jpg",
+            "trip_name": "18+ Cruise",
+            "trip_dates": "",
+            "trip_icon": "",
+            "trip_icon_style": ""
+        },
+        {
+            "trip_uuid": "9",
+            "trip_image": "../Static/image.jpg",
+            "trip_name": "Mount Everest",
+            "trip_dates": "January 1-4",
+            "trip_icon": "",
+            "trip_icon_style": ""
+        }
+    ]
+]
