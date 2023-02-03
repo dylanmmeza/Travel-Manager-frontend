@@ -16,6 +16,7 @@ export default class AuthorizationPage extends React.Component {
     render() {
         return (
             <RegistrationBackground>
+                <h1>HEYYYYYYYYYYYYYYYYYYY</h1>
                 <img style={{
                     width: "110%", height: "110%", overflow: 'cut'
                 }} src={assetUrl('../Static/flat-mountains.png')}></img>
