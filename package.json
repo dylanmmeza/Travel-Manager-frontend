@@ -16,6 +16,7 @@
     "bcrypt": "^5.1.0",
     "css-loader": "^6.7.3",
     "dotenv": "^16.0.3",
+    "fusion": "^1.0.0-beta",
     "fusion-cli": "^2.6.0",
     "fusion-core": "^2.0.9",
     "fusion-plugin-i18n-react": "^3.5.3",

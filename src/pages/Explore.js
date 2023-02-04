@@ -1,7 +1,13 @@
 import React, { Component } from 'react'
-// require("dotenv").config();
-
 const { Configuration, OpenAIApi } = require("openai");
+
+// import dotenv from 'dotenv';
+// dotenv.config({ path: '../../.env' });
+// const { OPENAI_API_KEY } = process.env;
+// console.log(OPENAI_API_KEY)
+const fs = require('fs');
+
+
 
 class ExplorePage extends Component {
     constructor(props) {
@@ -18,7 +24,7 @@ class ExplorePage extends Component {
     async handleSubmit(event) {
         event.preventDefault();
         const configuration = new Configuration({
-            apiKey: "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",
+            apiKey: process.env.OPENAI_API_KEY,
         });
         const openai = new OpenAIApi(configuration);
         const response = await openai.createCompletion({

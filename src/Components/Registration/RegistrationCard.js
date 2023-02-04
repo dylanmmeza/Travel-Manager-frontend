@@ -159,7 +159,6 @@ class RegistrationCard extends React.Component {
                     <RegistrationCardHeader>
                         <Title>
                             {this.state.mode == "login" ? "Welcome Back!" : "Create an Account"}
-                            heyyyyyyyyyyy
                         </Title>
                         <TitleOppositeLink>
                             {this.state.mode === "login" ? "Need to create an Account?" : "Already have an Account?"}

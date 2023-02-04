@@ -1,6 +1,7 @@
 import React from 'react';
 import { GoogleMap, withScriptjs, withGoogleMap, Marker } from 'react-google-maps';
 import MoveableModal from '../../common/MoveableModal';
+const fs = require('fs');
 
 class MapComponent extends React.Component {
     render() {
@@ -31,7 +32,7 @@ class MyMap extends React.Component {
             return (
                 <MoveableModal HideModal={HideDestinationModal}>
                     <WrappedMap
-                        googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyAHkgoi68TDOZQUIDZQrltE361PqpUjeTo`}
+                        googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.GOOGLE_MAPS_API_KEY}`}
                         loadingElement={<div style={{ height: `100%` }} />}
                         containerElement={<div
                             style={{ height: `100%`, width: '100%' }}

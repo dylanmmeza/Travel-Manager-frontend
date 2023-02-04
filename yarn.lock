@@ -5194,6 +5194,11 @@ fusion-tokens@^2.0.9:
   resolved "https://registry.npmjs.org/fusion-tokens/-/fusion-tokens-2.0.9.tgz#2bc5a79d76d6939f3e38ba682cf10b762fdfc67e"
   integrity sha512-n09hMTHmgYpAhMH6uAuaNKINStdnCB+1ls73lZ/L6SSKqnfWDE1hUkHfJ3zh/nJq0bttDq2FPzJoH5F6jNPhMw==
 
+fusion@^1.0.0-beta:
+  version "1.0.0-beta"
+  resolved "https://registry.yarnpkg.com/fusion/-/fusion-1.0.0-beta.tgz#6d653f56688224dd0519bd54abb398f9afadf2a8"
+  integrity sha512-J0ONizZFbTdENJzZsAGwVi/rKVTPQxfgTVgt5BZhhfrPrlQEMQz+cbpX+8awZsgpI1QaZen2Syy7N/XuKj8mPw==
+
 gauge@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-3.0.2.tgz#03bf4441c044383908bcfa0656ad91803259b395"
