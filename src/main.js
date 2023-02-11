@@ -55,9 +55,6 @@ export default () => {
   // Register the fetch token (used under-the-covers by fusion-plugin-rpc)
   if (__BROWSER__) {
     app.register(FetchToken, fetch);
-    // app.register(RPCHandlersConfigToken, {
-    //   apiPath: `${pathPrefix}/api`,
-    // });
   }
 
   return app;
